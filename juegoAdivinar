@@ -1,0 +1,3 @@
+def juego(a):
+ print(f'Hi, {name}')
+if __name__ == '__main__':
