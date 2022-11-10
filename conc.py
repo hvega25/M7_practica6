@@ -1,6 +1,5 @@
 def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
+    print(f'Hi, {name}')
 
 
 if __name__ == '__main__':
@@ -23,13 +22,17 @@ if __name__ == '__main__':
 
 
 def actividad6(valor1, valor2):
-    print(f'Hi, {actividad6()}')
+    print(f'Hi, {actividad6(valor1, valor2)}')
 
 
 if __name__ == '__main__':
+    # Demanda de valores
+
     valor1 = int(input('Coloca un numero: '))
     valor2 = int(input('Coloca otro numero: '))
+
+    # Suma de valores
     suma = valor1 + valor2
 
+    # Print
     print(f"La suma del valor '{valor1}' mas el valor '{valor2}' es: " + str(suma))
-
